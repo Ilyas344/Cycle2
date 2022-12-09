@@ -10,6 +10,7 @@ public class Main {
         }
         System.out.println("\nЗадача 2\n");
         i=0;
+
         while (i<10){
             System.out.printf("%d ",++i);
         }System.out.println("");
