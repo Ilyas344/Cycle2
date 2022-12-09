@@ -25,21 +25,23 @@ public class Main {
     }
         System.out.println("\n\nЗадача 4\n");
         double sum=15000;
-        for (i=0;sum<12_000_000;i++) {
+        i=0;
+            while (sum<12_000_000){
             sum = sum + sum * 0.07;
-            System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",i,sum);
+            System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",++i,sum);
         }
         sum=15000;
         System.out.println("\n\nЗадача 5\n");
-        for (i=0;sum<12_000_000;i++) {
+        while (sum<12_000_000){
             sum = sum + sum * 0.07;
-            if(i%6==0)System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",i,sum);
+            if(i%6==0)System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",++i,sum);
         }
         System.out.println("\n\nЗадача 6\n");
         sum=15000;
-        for (i=0;i<108;i++) {
+        i=0;
+        while (i<108){
                 sum = sum + sum * 0.07;
-                if(i%6==0)System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",i,sum);
+                if(i%6==0)System.out.printf("Месяц %d сумма накоплений %.2f руб.\n",++i,sum);
             }
         System.out.println("\n\nЗадача 7\n");
         int friday =2;
